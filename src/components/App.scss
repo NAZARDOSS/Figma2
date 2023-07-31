@@ -1,0 +1,260 @@
+$black: #000000;
+$font-primary: 'Oswald';
+$font-secondary: 'Open Sans';
+$orange: #F7654A;
+$grey: #404149;
+
+* {
+  margin: 0;
+}
+
+.title_block {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  position: absolute;
+  width: 734px;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 95px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  top: 20vh;
+  color: white;
+
+}
+
+.Upper_cont {
+  position: absolute;
+  width: 100%;
+  height: 740px;
+  left: 0px;
+  top: 0px;
+
+  .description {
+    position: absolute;
+    width: 734px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    top: 47vh;
+    text-transform: uppercase;
+    color: white;
+
+  }
+
+  .info-block {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    height: 35%;
+    top: 65%;
+    background: white;
+
+    .first {
+      font-family: 'Oswald';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 60px;
+      line-height: 0px;
+      text-align: center;
+      text-transform: uppercase;
+      color: $orange;
+      padding-bottom: 5vh;
+      line-height: 6vh;
+    }
+
+    .second {
+      font-family: "Oswald";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 0px;
+      text-align: center;
+      text-transform: uppercase;
+      color: black;
+      padding-bottom: 4vh
+    }
+
+    .third {
+      font-family: "Oswald";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 0px;
+      text-align: center;
+      color: #999999;
+    }
+  }
+}
+
+.info-item {
+  width: 26vh;
+  text-align: center;
+  padding-bottom: 10vh;
+  padding-top: 7vh;
+}
+
+.white_block {
+  display: flex;
+  justify-content: center
+}
+
+/*# sourceMappingURL=style.css.map */
+
+
+
+.middle_title {
+  position: relative;
+  color: $black;
+  top: 95vh;
+  font-family: $font-primary;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  text-align: center;
+}
+
+.middle_blocks {
+  display: flex;
+  justify-content: center;
+
+
+  .middle_info {
+    position: absolute;
+    top: 108vh;
+  }
+
+  .middle_image {
+    width: 38vh;
+    height: 40vh;
+    margin: 10px;
+      
+  }
+  h3{
+    margin-top: 4vh;
+    margin-left: 9px;
+  }
+  .orange_block {
+    width: 8vh;
+    height: 0.8vh;
+    background: $orange;
+    margin-top: 3vh;
+    margin-left: 10px;
+  }
+
+  .middle_info2 {
+    position: absolute;
+    top: 108vh;
+    left: 42vh;
+  }
+
+  .middle_info3 {
+    position: absolute;
+    top: 108vh;
+    left: 84vh;
+  }
+
+  .image_info {
+    margin-top: 7vh;    
+  }
+
+  .image_text {
+    margin-top: 10px;
+    margin-left: 9px;
+    font-family: $font-secondary;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #999999;
+  }
+  .gallery {
+    display: flex;
+    justify-content: center;
+    }
+  .gallery-item{
+    display: flex;
+    flex-direction: column;
+    width: 43vh;
+  }
+}
+
+  // Footers
+  .orange_footer {
+    position: absolute;
+    top: 208vh;
+    width: 100%;
+    height: 22%;
+    background-color: $orange;
+
+    h1{
+      color: rgba(255, 255, 255, 1);
+      margin-left: 15%;
+      font-family: 'Oswald';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 45px;
+      line-height: 71px;
+      letter-spacing: -4px;
+      word-spacing: 10px;
+    }
+    h2{
+      color: rgba(255, 255, 255, 1);
+      margin-left: 15%;
+      font-family: 'Oswald';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 36px;
+    }
+    button {
+      width: 175px;
+      position: absolute;
+      left: 75%;
+      bottom: 8vh;
+      height: 49px;
+      background: rgba(255, 255, 255, 1);
+      border: none;
+      
+      &:hover{
+        color: $orange;
+        font-weight: 700;
+        transform: scale(1.1);
+      }
+    }
+    .orange_text{
+      margin-top: 5vh;
+    }
+  }
+
+  .grey_footer {
+    position: absolute;
+    top: 230vh;
+    width: 100%;
+    height: 10%;
+    background-color: $grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    p{
+      font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  display: inline-block;
+  text-align: center;
+    }
+  }
+  
