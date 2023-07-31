@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Figma2/static/css/main.494d4b87.css",
+    "main.js": "/Figma2/static/js/main.5a8f900b.js",
+    "static/media/Rectangle.png": "/Figma2/static/media/Rectangle.291cda430c643dc825fb.png",
+    "index.html": "/Figma2/index.html",
+    "main.494d4b87.css.map": "/Figma2/static/css/main.494d4b87.css.map",
+    "main.5a8f900b.js.map": "/Figma2/static/js/main.5a8f900b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.494d4b87.css",
+    "static/js/main.5a8f900b.js"
+  ]
+}
